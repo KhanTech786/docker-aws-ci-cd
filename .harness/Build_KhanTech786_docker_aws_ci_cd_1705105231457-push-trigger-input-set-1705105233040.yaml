@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_KhanTech786_docker_aws_ci_cd_1705105231457-push-trigger-input-set
+  identifier: Build_KhanTech786_docker_aws_ci_cd_1705105231457pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_KhanTech786_docker_aws_ci_cd_1705105231457
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
