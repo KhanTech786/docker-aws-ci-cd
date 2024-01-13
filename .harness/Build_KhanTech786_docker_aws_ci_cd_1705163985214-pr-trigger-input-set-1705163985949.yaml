@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_KhanTech786_docker_aws_ci_cd_1705163985214-pr-trigger-input-set
+  identifier: Build_KhanTech786_docker_aws_ci_cd_1705163985214prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_KhanTech786_docker_aws_ci_cd_1705163985214
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
